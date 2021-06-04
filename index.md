@@ -255,7 +255,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is associated with the UNM Sevilleta Field Station Research Experiences for Undergraduates (REU) Sites Program, funded by the National Science Foundation grant #DBI-1950237. Only invited participants belonging to the 2021 summer cohort may attend.
+    This workshop is associated with the UNM Sevilleta Field Station Research Experiences for Undergraduates (REU) Sites Program, funded by the National Science Foundation grant #DBI-1950237. Only invited participants may attend.
 </p>
 
 <hr/>
