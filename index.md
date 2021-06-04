@@ -9,11 +9,11 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "34.354912008860666"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-106.88490566785869"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "17-18 June 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Jun 17-18, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-06-17      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-06-18        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Renée F. Brown", "Greg Maurer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Renée Brown", "Greg Maurer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Tim Ohlert"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["rfbrown@unm.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -237,7 +237,6 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
-{% comment %}
 WHO CAN ATTEND?
 
 If you would like to specify who can attend the workshop,
@@ -254,9 +253,8 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is only open to Sevilleta Field Station Summer REU Program undergraduate students.
+    This workshop is supported by the UNM Sevilleta Field Station Research Experiences for Undergraduates (REU) Sites Program, funded by the National Science Foundation. Only invited participants belonging to the 2021 summer cohort may attend.
 </p>
-{% endcomment %}
 
 <hr/>
 
