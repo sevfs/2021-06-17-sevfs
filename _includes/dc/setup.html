@@ -7,11 +7,19 @@ Ecology workshops
 {% if site.curriculum == "dc-ecology" %}
 
 {% if site.flavor == "r" %}
-<p>
-  The setup instructions for the Data Carpentry Ecology workshops (with R)
-  can be found at <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html">
-    the workshop overview site</a>.
-</p>
+<p> Please visit the setup instructions for each lesson that will be covered in this Data Carpentry for Ecology workshop:</p>
+<ul>
+  <li><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/setup.html">Data Organization in Spreadsheets</a></li>
+  <li><a href="http://swcarpentry.github.io/shell-novice/setup.html">The Unix Shell</a></li>
+  {% if site.flavor == "r" %}
+  <li><a href="https://datacarpentry.org/R-ecology-lesson/#setup-instructions">R and RStudio</a></li>
+  {% elsif site.flavor == "python" %}
+  <li><a href="https://datacarpentry.org/python-ecology-lesson/setup.html">Python</a></li>
+  {% else %}
+  {% include warning-flavor.html %}
+  {% endif %}
+  <li><a href="https://carpentries.github.io/workshop-template/#git">Version Control with Git</a></li>
+</ul>
 
 {% elsif site.flavor == "python" %}
 <p>
