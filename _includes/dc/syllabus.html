@@ -10,7 +10,7 @@ The syllabus for the different curricula are listed here:
 {% if site.curriculum == "dc-ecology" %}
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-ecology-spreadsheet">Data Organisation in Spreadsheets</h3>
+    <h3 id="syllabus-ecology-spreadsheet">Data Organization in Spreadsheets</h3>
     <ul>
       <li><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/00-intro/">Introduction</a></li>
       <li><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/">Formatting Data</a></li>
@@ -18,6 +18,15 @@ The syllabus for the different curricula are listed here:
       <li><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/03-dates-as-data/">Dates as Data</a></li>
       <li><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/">Quality Control</a></li>
       <li><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/">Exporting Data</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-unix-shell">The Unix Shell</h3>
+    <ul>
+      <li><a href="http://swcarpentry.github.io/shell-novice/01-intro/index.html">Introduction</a></li>
+      <li><a href="http://swcarpentry.github.io/shell-novice/02-filedir/index.html">Navigating Files and Directories</a></li>
+      <li><a href="http://swcarpentry.github.io/shell-novice/03-create/index.html">Working with Files and Directories</a></li>
+      <li><a href="http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html">Pipes and Filters</a></li>
     </ul>
   </div>
   {% comment %}
@@ -42,7 +51,7 @@ The syllabus for the different curricula are listed here:
       <li><a href="https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R</a></li>
       <li><a href="https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Starting with Data</a></li>
       <li><a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html">Manipulating Data Frames with <code>dplyr</code></a></li>
-      <li><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Data Visualisation with <code>ggplot2</code></a></li>
+      <li><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Data Visualization with <code>ggplot2</code></a></li>
       {% comment %}
       <li><a href="https://datacarpentry.org/R-ecology-lesson/05-r-and-databases.html">Interacting with Databases with <code>dbplyr</code></a></li>
       {% endcomment %}
@@ -66,6 +75,19 @@ The syllabus for the different curricula are listed here:
   {% else %}
   {% include warning-flavor.html %}
   {% endif %}
+  <div class="col-md-6">
+    <h3 id="syllabus-git">Version Control with Git</h3>
+    <ul>
+      <li><a href="http://swcarpentry.github.io/git-novice/01-basics/index.html">Introduction</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/02-setup/index.html">Setting up Git</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/03-create/index.html">Creating a Repository</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/04-changes/index.html">Tracking Changes</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/07-github/index.html">Sharing Changes with Others</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/08-collab/index.html">Collaborating</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/10-open/index.html">Open Science</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/14-supplemental-rstudio/index.html">Using Git with RStudio</a></li>
+    </ul>
+  </div>
   {% comment %}
   <div class="col-md-6">
     <h3 id="syllabus-ecology-sql">Data Management with SQL</h3>
